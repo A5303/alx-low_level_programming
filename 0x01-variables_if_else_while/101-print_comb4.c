@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Prints all possible combinatios of 3-digit numbers
- * 
+ *
  * Return: Always 0 (Success)
  */
 
