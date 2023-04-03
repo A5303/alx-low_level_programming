@@ -6,9 +6,9 @@
  * @accept: input
  * Return: Always 0 (Success)
  */
-unsigned int  int_strspn(char *p, char *accept)
+unsigned int int_strspn(char *p, char *accept)
 {
-	unsigned int n = 0;
+	int n = 0;
 	int d;
 
 	while (*p)
