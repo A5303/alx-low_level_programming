@@ -18,10 +18,10 @@ void print_diagsums(int *g, int size)
 		sum1 = sum1 + g[q * size + q];
 	}
 
-	for (q = sizse - 1; q >= 0; q--)
+	for (q = size - 1; q >= 0; q--)
 	{
 		sum2 += g[q * size + (size - q - 1)];
 	}
 
-	printf"(%d, %d\n", sum1, sum2);
+	printf("%d, %d\n", sum1, sum2);
 }
