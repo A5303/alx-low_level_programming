@@ -12,7 +12,7 @@ int main(void)
 	char *f = "oleh";
 	unsigned int n;
 
-	n =  _strspn(s, f);
+	n = int_strspn(s, f);
 	printf("%u\n", n);
 	return (0);
 }
