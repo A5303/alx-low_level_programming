@@ -14,6 +14,6 @@ int _abs(int c)
 
 	abs_val = c * -1;
 	return (abs_val);
-sh: 1: wq:qa: not found
+
 	return (c);
 }
